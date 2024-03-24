@@ -11,13 +11,15 @@ inherit deploy
 
 S = "${WORKDIR}/git"
 
-BRANCH = "v2.9/rz"
+#BRANCH = "v2.9/rz"
+BRANCH = "onekiwi-v2.9/rz"
 
 SRC_URI = " \
-	git://github.com/renesas-rz/rzg_trusted-firmware-a.git;branch=${BRANCH};protocol=https \
+	git://github.com/OneKiwiEmbedded/atf-renesas-rz.git;branch=${BRANCH};protocol=https \
 "
 
-SRCREV = "cc18695622e5637ec70ee3ae8eb5e83b09d13804"
+#SRCREV = "cc18695622e5637ec70ee3ae8eb5e83b09d13804"
+SRCREV = "f913bc8aa53d66fef2070cd3b75d3a094a98ec9c"
 
 PV = "v2.9+git"
 

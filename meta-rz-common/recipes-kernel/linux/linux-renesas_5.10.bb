@@ -10,10 +10,16 @@ COMPATIBLE_MACHINE_rzv2m = "(rzv2m)"
 COMPATIBLE_MACHINE_rzv2ma = "(rzv2ma)"
 COMPATIBLE_MACHINE_rzg1 = "(iwg20m-g1m|iwg20m-g1n|iwg21m|iwg22m|iwg23s)"
 
+#KERNEL_URL = " \
+#    git://github.com/renesas-rz/rz_linux-cip.git"
+#BRANCH = "${@oe.utils.conditional("IS_RT_BSP", "1", "rz-5.10-cip36-rt14", "rz-5.10-cip36",d)}"
+#SRCREV = "${@oe.utils.conditional("IS_RT_BSP", "1", "f6d8deae984c9ae14e55159de46667fd66e52af3", "c45e3a8129dd0ee36c51079e95962b2f85472e51",d)}"
+
 KERNEL_URL = " \
-    git://github.com/renesas-rz/rz_linux-cip.git"
-BRANCH = "${@oe.utils.conditional("IS_RT_BSP", "1", "rz-5.10-cip36-rt14", "rz-5.10-cip36",d)}"
-SRCREV = "${@oe.utils.conditional("IS_RT_BSP", "1", "f6d8deae984c9ae14e55159de46667fd66e52af3", "c45e3a8129dd0ee36c51079e95962b2f85472e51",d)}"
+    git://github.com/OneKiwiEmbedded/linux-renesas-rz.git"
+BRANCH = "${@oe.utils.conditional("IS_RT_BSP", "1", "rz-5.10-cip36-rt14", "onekiwi-rz-5.10-cip36",d)}"
+SRCREV = "${@oe.utils.conditional("IS_RT_BSP", "1", "f6d8deae984c9ae14e55159de46667fd66e52af3", "76b93dc7fdf3695032939c0899481523fbfbce67",d)}"
+
 
 SRC_URI = "${KERNEL_URL};protocol=https;nocheckout=1;branch=${BRANCH}"
 LIC_FILES_CHKSUM = "file://COPYING;md5=6bc538ed5bd9a7fc9398086aedcd7e46"
