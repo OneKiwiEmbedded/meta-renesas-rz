@@ -19,7 +19,7 @@ SRC_URI = " \
 "
 
 #SRCREV = "cc18695622e5637ec70ee3ae8eb5e83b09d13804"
-SRCREV = "f913bc8aa53d66fef2070cd3b75d3a094a98ec9c"
+SRCREV = "49fd59cfb4091ae28ade4690f1ac0b77ff8f79a3"
 
 PV = "v2.9+git"
 
