@@ -24,7 +24,7 @@ SRCREV = "f913bc8aa53d66fef2070cd3b75d3a094a98ec9c"
 PV = "v2.9+git"
 
 COMPATIBLE_MACHINE_rzg2h = "(ek874|hihope-rzg2m|hihope-rzg2n|hihope-rzg2h)"
-COMPATIBLE_MACHINE_rzg2l = "(smarc-rzg2l|rzg2l-dev|smarc-rzg2lc|rzg2lc-dev|smarc-rzg2ul|rzg2ul-dev|smarc-rzv2l|rzv2l-dev)"
+COMPATIBLE_MACHINE_rzg2l = "(smarc-rzg2l|rzg2l-dev|smarc-rzg2lc|rzg2lc-dev|smarc-rzg2ul|rzg2ul-dev|onekiwi-smarc-rzv2l|smarc-rzv2l|rzv2l-dev)"
 
 PLATFORM ?= "rzg"
 

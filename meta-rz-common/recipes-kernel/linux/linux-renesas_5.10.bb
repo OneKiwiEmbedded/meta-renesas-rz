@@ -3,7 +3,7 @@ DESCRIPTION = "Linux kernel for the RZG2 based board"
 require recipes-kernel/linux/linux-yocto.inc
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}/:"
-COMPATIBLE_MACHINE_rzg2l = "(smarc-rzg2l|rzg2l-dev|smarc-rzg2lc|rzg2lc-dev|smarc-rzg2ul|rzg2ul-dev|smarc-rzv2l|rzv2l-dev)"
+COMPATIBLE_MACHINE_rzg2l = "(smarc-rzg2l|rzg2l-dev|smarc-rzg2lc|rzg2lc-dev|smarc-rzg2ul|rzg2ul-dev|onekiwi-smarc-rzv2l|smarc-rzv2l|rzv2l-dev)"
 COMPATIBLE_MACHINE_rzg2h = "(ek874|hihope-rzg2n|hihope-rzg2m|hihope-rzg2h)"
 COMPATIBLE_MACHINE_rzfive = "(smarc-rzfive|rzfive-dev)"
 COMPATIBLE_MACHINE_rzv2m = "(rzv2m)"

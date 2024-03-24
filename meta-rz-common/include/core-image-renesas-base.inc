@@ -43,6 +43,10 @@ update_issue() {
       BSP_SOC="RZV2L"
       BSP_BOARD="RZV2L-SMARC-EVK"
       ;;
+    onekiwi-smarc-rzv2l)
+      BSP_SOC="RZV2L"
+      BSP_BOARD="ONEKIWI-RZV2L-SMARC-EVK"
+      ;;
     rzv2l-dev)
       BSP_SOC="RZV2L"
       BSP_BOARD="RZV2L-DEV"
