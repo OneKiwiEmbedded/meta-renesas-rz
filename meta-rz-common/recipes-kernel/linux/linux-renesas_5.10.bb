@@ -18,7 +18,7 @@ COMPATIBLE_MACHINE_rzg1 = "(iwg20m-g1m|iwg20m-g1n|iwg21m|iwg22m|iwg23s)"
 KERNEL_URL = " \
     git://github.com/OneKiwiEmbedded/linux-renesas-rz.git"
 BRANCH = "${@oe.utils.conditional("IS_RT_BSP", "1", "rz-5.10-cip36-rt14", "onekiwi-rz-5.10-cip36",d)}"
-SRCREV = "${@oe.utils.conditional("IS_RT_BSP", "1", "f6d8deae984c9ae14e55159de46667fd66e52af3", "a9a68764add3f7b59e28319c1809494dee614698",d)}"
+SRCREV = "${@oe.utils.conditional("IS_RT_BSP", "1", "f6d8deae984c9ae14e55159de46667fd66e52af3", "214ea2b4c47c5674fdea31eca31f64e94fdbe34e",d)}"
 
 
 SRC_URI = "${KERNEL_URL};protocol=https;nocheckout=1;branch=${BRANCH}"
