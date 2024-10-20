@@ -28,6 +28,10 @@ PLATFORM_onekiwi-smarc-rzv2l = "v2l"
 EXTRA_FLAGS_onekiwi-smarc-rzv2l = "BOARD=smarc_4"
 PMIC_EXTRA_FLAGS_onekiwi-smarc-rzv2l = "BOARD=onekiwi_smarc_rzv2l"
 
+PLATFORM_rzv2l-som-onekiwi = "v2l"
+EXTRA_FLAGS_rzv2l-som-onekiwi = "BOARD=smarc_4"
+PMIC_EXTRA_FLAGS_rzv2l-som-onekiwi = "BOARD=rzv2l_som_onekiwi"
+
 PLATFORM_rzv2l-dev = "v2l"
 EXTRA_FLAGS_rzv2l-dev = "BOARD=dev15_4"
 
