@@ -10,5 +10,5 @@ BRANCH = "onekiwi-v2021.10/rz"
 
 SRC_URI = "${UBOOT_URL};branch=${BRANCH}"
 #SRCREV = "fe9d08bec2006356760b70bb2f72ba2ba5aed5fd"
-SRCREV = "1479030c2508c0e8ec16fe74fc57ef33002d079c"
+SRCREV = "7cfeac12a2274f44d9afd1f89f468207d3c9a5d3"
 PV = "v2021.10+git${SRCPV}"
